@@ -1,0 +1,107 @@
+* {  margin: 0;
+    padding: 0;}
+
+
+    body {
+    background-color: #caf0f8;
+    color: #482d00;
+    overflow: hidden;
+    }
+    
+
+    .tytuł {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 54px;
+    border: 1px solid gray;
+    text-align: center;
+    font-family: arial;
+    font-size: 40px;
+    background-color: #90e0ef;
+    box-shadow: 2px 3px 13px 0px rgba(0, 0, 0, 0.37);
+    }
+    
+.copy {
+    display: block;
+    position: absolute;     
+    left: 0;     
+    top: calc(100% - 22px);     
+    font-size: 18px;
+    font-family: arial;     
+    text-align: center;
+    height: 22px;
+    width: 100%;
+    padding-top: 2px;
+    border: 1px solid gray;
+    background-color: #90e0ef;
+    box-shadow: 2px 3px 13px 0px rgba(0, 0, 0, 0.37);
+    }  
+  
+      
+
+    .ob {
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    top: 50%;
+    transform: translate(0, -50%);
+    box-shadow: 2px 3px 13px 0px rgba(0, 0, 0, 0.37);
+    width: 550px;
+    height: 450px;
+    border-radius: 3%;
+    }
+    
+
+    .małe {
+    display: block;
+    float: left;
+    width: 350px;
+    height: 500px;
+    overflow: auto;
+    border: 3px double gray;
+    margin-right: 5px;
+    background-color: #90e0ef;
+    box-shadow: 2px 3px 13px 0px rgba(0, 0, 0, 0.37);
+    }
+    
+
+    .duże {
+    display: block;
+    float: left;
+    color: #593800;
+    width: 700px;
+    height: 500px;
+    border: 3px double gray;
+    margin-left: 5px;
+    background-color: #90e0ef;
+    box-shadow: 2px 3px 13px 0px rgba(0, 0, 0, 0.37);
+    }     
+    
+
+    img.mini {
+    border-radius: 18px;
+    margin-left: 2px;
+    box-shadow: 2px 3px 13px 0px rgba(0, 0, 0, 0.37);
+    width: 100px;
+    height: 100px;
+    }
+    img.mini:hover{
+    opacity : 0.5;
+    }
+
+    .big{
+        width: 600px;
+    height: 400px;
+    }
+    
+    .rama {
+    width: 1118px;
+    height: 506px;
+    display: block;
+    position: absolute;
+    left: calc(50% - 559px);
+    top: calc(50% - 243px);
+    }
